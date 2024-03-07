@@ -1,4 +1,7 @@
 --1.Crear base de datos (desde SQL)--
+CREATE DATABASE Peliculas
+
+--Entrar a la base de datos--
 \c Peliculas
 
 --2.Crear tabla peliculas--
