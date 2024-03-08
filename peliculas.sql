@@ -5,7 +5,7 @@ CREATE DATABASE Peliculas
 \c Peliculas
 
 --2.Crear tabla peliculas--
-CREATE TABLE Peliculas (id int primary key not null, Pelicula varchar, Año_Estreno varchar(10), Director varchar);
+CREATE TABLE Peliculas (id int primary key not null, Pelicula varchar, Año_Estreno int, Director varchar);
 
 --Crear tabla Reparto--
 CREATE TABLE Reparto (id int not null, Reparto varchar, foreign key (id) references Peliculas(id));
